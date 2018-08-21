@@ -9,19 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity" />
-        <activity
-            android:name=".main.AboutActivity"
-            android:label="About" />
-        <activity
-            android:name=".main.LoginActivity"
-            android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".feature.IsiDataActivity"
+            android:label="About" />
+        <activity
+            android:name=".auth.LoginActivity"
+            android:theme="@style/AppTheme.TanpaActionBar" />
+        <activity
+            android:name=".main.SplashActivity"
+            android:theme="@style/AppTheme.TanpaActionBar" />
+        <activity android:name=".feature.inbox.InboxActivity"></activity>
     </application>
 
 </manifest>

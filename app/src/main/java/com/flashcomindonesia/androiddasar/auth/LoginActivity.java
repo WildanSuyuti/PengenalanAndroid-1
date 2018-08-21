@@ -1,4 +1,4 @@
-package com.flashcomindonesia.androiddasar.main;
+package com.flashcomindonesia.androiddasar.auth;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -11,11 +11,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.flashcomindonesia.androiddasar.MainActivity;
+import com.flashcomindonesia.androiddasar.main.MainActivity;
 import com.flashcomindonesia.androiddasar.R;
-import com.flashcomindonesia.androiddasar.User;
+import com.flashcomindonesia.androiddasar.model.User;
 
 /**
  * Created by kakaroto on 14/08/18.

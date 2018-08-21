@@ -1,4 +1,4 @@
-package com.flashcomindonesia.androiddasar;
+package com.flashcomindonesia.androiddasar.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;
